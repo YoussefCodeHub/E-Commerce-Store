@@ -1,0 +1,25 @@
+/* src/Styles/Offers.css */
+
+.offers-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .offer {
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .offer p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

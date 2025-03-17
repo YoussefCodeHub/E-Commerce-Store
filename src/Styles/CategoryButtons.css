@@ -1,0 +1,31 @@
+/* تصميم الأزرار */
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .category-buttons button.active {
+    background-color: #28a745; /* الفئة المختارة */
+  }
+  
+  .category-buttons button:focus {
+    outline: none;
+  }
+  

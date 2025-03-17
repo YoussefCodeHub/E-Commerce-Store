@@ -1,0 +1,75 @@
+/* تنسيق الكرت */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* توزيع المسافة بين العناصر بشكل مناسب */
+  width: 18rem;
+  height: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* تنسيق محتوى الكرت */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* توزيع العناصر عموديًا */
+  padding: 10px;
+  height: 100%;
+  text-align: center;
+  flex-grow: 1; /* يسمح بتوسيع الكرت */
+}
+
+/* تنسيق العنوان */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* تنسيق الوصف */
+.card-description {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 10px 0; /* إضافة مسافة بين الوصف والعناصر الأخرى */
+  flex-grow: 1; /* يسمح للوصف بالتمدد */
+  display: flex; /* تفعيل flexbox داخل الوصف */
+  align-items: center; /* توسيط النص عموديًا داخل الوصف */
+  justify-content: center; /* توسيط النص أفقيًا داخل الوصف */
+}
+
+/* تنسيق السعر */
+.card-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+/* تنسيق الزر */
+.card-btn {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.card-btn:hover {
+  background-color: #0056b3;
+}
